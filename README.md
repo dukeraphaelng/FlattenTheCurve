@@ -43,13 +43,6 @@ Mass scale mental health identification and tools to address through more conven
 - Mentor allocation: From now and tomorrow morning you are free to reach out to mentors. Mentors can let  us know if they would like to work with you. All preferences are considered. Please engage on the slack channels directly as all mentors are being made available to you. The organisers will allocate you dedicated mentors based on the subject area your team will be looking into. The team lead can expect to hear from a mentor by 12pm on Friday 10th April.
 
 
-Below in thread: Are the Rules and Guidelines documentation. Please have a thorough read before #ask_the_organisers.
-Submission Links: The link to the submissions will be posted in this channel at 1pm AEST on Saturday 11th of April.
-Most Importantly:  Make sure you have fun. Because 'If you can’t have fun, there’s no sense in doing it' - Paul Walker.
-LET THE GAMES BEGIN :boom::rocket: 
-
-
-
 ## IDEAS
 
 3d printer website outsourcing
@@ -82,3 +75,5 @@ Chatting app for family/friends to combat social isolation
 - Streaks
 
 - Rewards
+
+- Reoccuring auto tasks such as mow the lawn or take out the trash that need to be upkept 
