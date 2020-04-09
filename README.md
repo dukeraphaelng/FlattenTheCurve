@@ -2,6 +2,7 @@
 
 Team Members
 - Ross Baker
+- Martin Valdivia
 - Andrew Tran
 - Vincent Lieu
 - Morgan Batterham
