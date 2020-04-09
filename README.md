@@ -61,3 +61,11 @@ VR interactive for physical fields and jobs
 Chatting app for family/friends to combat social isolation
 - remind users to contact someone after set amount of time
 - notify others if you need help or want to talk
+
+## DECIDED: Goalsetting app
+
+### Features:
+
+- 3 Priority levels: High, Medium, Low
+
+- 
