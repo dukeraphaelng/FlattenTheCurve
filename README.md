@@ -77,3 +77,23 @@ Chatting app for family/friends to combat social isolation
 - Rewards
 
 - Reoccuring auto tasks such as mow the lawn or take out the trash that need to be upkept 
+
+
+## Charities we can use 
+
+### Medical Services
+- Howard Brown Health (https://howardbrown.org/get-involved/donate/)
+
+- International Rescue Committee (https://help.rescue.org/donate-au?ms=ws_resq_top_nav_btn_191203&initialms=ws_resq_top_nav_btn_191203) 
+
+- Heart to Heart International (https://app.mobilecause.com/form/fFHW4g?vid=6vas2)
+
+- Save the Children (https://support.savethechildren.org/site/Donation2?df_id=1620&1620.donation=form1)
+
+- Partners In Health (https://donate.pih.org/page/contribute/donate)
+
+### Education & Awareness
+
+- American Autoimmune Related Diseases Association (https://www.aarda.org/donate/)
+
+- Sewa International, Inc (https://sewausa.org/Donate)
