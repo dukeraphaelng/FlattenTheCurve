@@ -4,7 +4,7 @@ Team Members
 - Ross Baker
 - Andrew Tran
 - Vincent Lieu
-
+- Morgan Batterham
 
 :speaker:And there we have it :rocket: Our challenges have been announced and the #flattenthecurvehack can begin in full throttle :tada:
 Here are the challenge categories for your teams to compete and be in the running:woman-running::skin-tone-3:
