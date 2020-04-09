@@ -56,7 +56,7 @@ LET THE GAMES BEGIN :boom::rocket:
 Allow people to access 3d printers to print medical supplies
 
 
-VR interactice for physical fields and jobs
+VR interactive for physical fields and jobs
 
 Chatting app for family/friends to combat social isolation
 - remind users to contact someone after set amount of time
