@@ -46,3 +46,18 @@ Below in thread: Are the Rules and Guidelines documentation. Please have a thoro
 Submission Links: The link to the submissions will be posted in this channel at 1pm AEST on Saturday 11th of April.
 Most Importantly:  Make sure you have fun. Because 'If you can’t have fun, there’s no sense in doing it' - Paul Walker.
 LET THE GAMES BEGIN :boom::rocket: 
+
+
+
+## IDEAS
+
+3d printer website outsourcing
+
+Allow people to access 3d printers to print medical supplies
+
+
+VR interactice for physical fields and jobs
+
+Chatting app for family/friends to combat social isolation
+- remind users to contact someone after set amount of time
+- notify others if you need help or want to talk
