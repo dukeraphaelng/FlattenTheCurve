@@ -92,8 +92,13 @@ Chatting app for family/friends to combat social isolation
 
 - Partners In Health (https://donate.pih.org/page/contribute/donate)
 
+- UNICEF Coronavirus appeal (https://www.unicef.org.au/appeals/coronavirus)
+
+- Foodbank Australia (https://www.foodbank.org.au/)
+
 ### Education & Awareness
 
 - American Autoimmune Related Diseases Association (https://www.aarda.org/donate/)
 
 - Sewa International, Inc (https://sewausa.org/Donate)
+
