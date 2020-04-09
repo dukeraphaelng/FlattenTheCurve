@@ -1,10 +1,9 @@
-Main Menu
-
-Options:
+Main Menu options:
 add a task
 view tasks
 delete a task
 update a task
+View character progress
 
 
 Add task screen:
@@ -16,3 +15,23 @@ Ask for reminder interval (or set fixed?)
 Optional: Elect for charity donation
 
 
+View Tasks:
+See all tasks in a Table view
+Allow for sorting by time left, priority, order added or "importance" - importance is a mix of time left and priority
+
+
+Update Task: 
+List tasks
+Click through to edit any of the info for a task: name, due date, priority, reminder interval etc.
+
+Delete Task:
+List tasks
+Click through to delete tasks
+
+View progress:
+Website will be "gamified" to motivate user. XP bar will set in lower left
+Clicking XP bar or progress view will take user to a character screen
+Character screen contains XP infortmation and stats about their progress
+
+XP Bar:
+At the bottom left of every page there's a translucent XP bar. Mousing over reveals user's "level" and progress along current level.
