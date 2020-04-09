@@ -68,4 +68,16 @@ Chatting app for family/friends to combat social isolation
 
 - 3 Priority levels: High, Medium, Low
 
-- 
+- Various time frames
+
+- Regular reminders
+
+- Connected to social media
+
+- Donation to charity
+
+- Experience points
+
+- Streaks
+
+- Rewards
