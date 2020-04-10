@@ -95,6 +95,12 @@ border-radius:2px;
   justify-content: center;
 }
 
+#task_description {
+  height: 100px;
+  width: 100%;
+  resize: none;
+}
+
 form {
   border-radius: 5px;
   background-color: #151324;
