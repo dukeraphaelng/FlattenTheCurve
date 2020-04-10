@@ -12,7 +12,7 @@
     <h3>Welcome to our app</h3>
     <br />
     <% if current_account %>
-      <%= link_to  "View your account", @task %>
+      <%= link_to  "View your account", tasks_path %>
       <%= link_to  "Sign out", destroy_account_session_path, method: :delete %>
     <% else %>
     <span id = "login_or_register">
