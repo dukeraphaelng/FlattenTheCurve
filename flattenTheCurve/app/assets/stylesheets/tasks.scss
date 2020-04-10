@@ -24,7 +24,7 @@ a[href="/tasks/new"]:hover {
 /* BUTTONS ------------------------------------*/
 
 /*apply styling to "Create Task" submit button*/
-input[type="submit"]{
+input[type="submit"] {
     color:black;
 }
 
@@ -88,11 +88,12 @@ form {
   background-color: #151324;
   padding: 20px;
   width: 100%;
-  margin: 0px 50px 0px 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-container .field {
-  width: 80%;
+  width: 50%;
 }
 
 input[type="text"] {
@@ -124,4 +125,3 @@ input[type=submit]:hover {
 .form-container label {
   font-size: 1rem;
 }
-
