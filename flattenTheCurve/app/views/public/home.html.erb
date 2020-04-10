@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,46 +11,25 @@
     <h2>This is the landing page</h2>
     <h3>Welcome to our app</h3>
     <br />
+    <% if current_account %>
+      <%= link_to  "Sign out", destroy_account_session_path, method: :delete %>
+    <% else %>
     <span id = "login_or_register">
-       <a href = "tasks/register">
         <div id = "register">
-            Existing User?<br />
-            Register here</a>
+      <%= link_to  "Sign up", new_account_registration_path %>
         </div>
         
         <div id = "blank"> 
         </div>
 
-        <a href = "tasks/login">
         <div id = "login">
-            New User?
-            <br />
-            Login here</a>
+      <%= link_to  "Sign in", new_account_session_path %>
         </div>
-    <span>
+            <% end %>
 </div>
     <footer>
     Built by <a href = "https://github.com/MorganBat" target = "_blank">Morgan</a>, <a href = "https://github.com/r0ss26" target = "_blank">Ross</a>, <a href = "https://github.com/MartinVald2170" target = "_blank">Martin</a>, <a href = "https://github.com/andrewtrandev" target = "_blank">Andrew</a>, <a href = "https://github.com/vincentlieu" target = "_blank">Vincent</a>, and <a href = "https://github.com/dukeraphaelng" target = "_blank">Duke</a>
     </footer>
-</body>
-=======
-  <head>
-    <meta charset="utf-8">
-    <title>Flatten The Curve</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-  </head>
-  <body>
-    <p>This is the Home Page</p>
-
-    <% if current_account %>
-      <%= link_to  "Sign out", destroy_account_session_path, method: :delete %>
-    <% else %>
-      <%= link_to  "Sign up", new_account_registration_path %>
-      <%= link_to  "Sign in", new_account_session_path %>
-    <% end %>
   </body>
   <% yield %>
->>>>>>> 38f464b76de7e7d95343049d2ca141ec470d02d5
 </html>
