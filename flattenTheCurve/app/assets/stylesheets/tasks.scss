@@ -27,7 +27,26 @@ input[type="submit"]{
     color:black;
 }
 
-
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
 
 /* TABLES  --------------------------------*/
 
@@ -39,10 +58,13 @@ th {
 border-bottom: 2px solid #FFFFFF;
 }
 
+/* add lines to table
 table, th, td{
     border:1px solid white;
-    
+
 }
+*/
+
 
 /* INPUT FIELDS  -------------------------------- */
 

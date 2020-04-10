@@ -35,6 +35,10 @@
 </table>
 
 <br>
-<div>
-<%= link_to 'New Task', new_task_path %>
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
 </div>
+
+<%= link_to 'New Task', new_task_path %>
