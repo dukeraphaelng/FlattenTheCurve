@@ -15,16 +15,11 @@
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 45px;
 }
 
 h3 {
-  font-size: 20px;
-}
-
-#login_or_register {
-  display: grid;
-  
+  font-size: 30px;
 }
 
 #login_or_register {
@@ -36,12 +31,12 @@ h3 {
 }
 
 #login {
-  padding: 20px;
+  padding-left: 25px;
   color: grey;
 }
 
 #register {
-  padding: 20px;
+  padding-right: 25px;
   color: grey;
 }
 
@@ -59,8 +54,4 @@ footer {
   a {
     padding-left: 3px;
   }
-}
-
-#BR_GANG:hover {
-
 }
