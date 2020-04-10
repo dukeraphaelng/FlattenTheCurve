@@ -4,6 +4,7 @@
 
 /* LINKS ---------------------------------------*/
 
+
 a[href="/tasks/new"] {
     background-color: #FBFFFE;
     border: 1px solid #FBFFFE;
@@ -58,12 +59,13 @@ th {
 border-bottom: 2px solid #FFFFFF;
 }
 
-/* add lines to table
+/* add lines to table */
 table, th, td{
     border:1px solid white;
+    border-collapse: collapse;
 
 }
-*/
+
 
 
 /* INPUT FIELDS  -------------------------------- */
@@ -72,3 +74,19 @@ table, th, td{
 input {
 border-radius:2px;
 }
+
+/* NEW TASK FORM -------------------------------- */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container * {
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
