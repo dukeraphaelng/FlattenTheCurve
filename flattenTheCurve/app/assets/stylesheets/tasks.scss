@@ -3,14 +3,31 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-    background-color: #D4BF8E;
-    color: darkslategray;
+    background-color: #262439;
+    // color: darkslategray;
+    color: white;
 }
 
 h1 {
     font-family: "Lucida Console", Monaco, monospace;
+    text-transform: uppercase;
 }
 
 table {
-    border: 1px solid black;
+    border: 1px solid #FFFFFF;
+}
+
+th {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+/* apply border radius to input fields */
+input {
+    border-radius:2px;
+}
+
+
+/*apply styling to "Create Task" submit button*/
+input[type="submit"]{
+    color:F49E4B;
 }
