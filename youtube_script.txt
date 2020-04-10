@@ -42,18 +42,18 @@ Rewards
 donate to charity 
 #explain in a sentence or 2
 
-- Reoccuring auto tasks such as mow the lawn or take out the trash that need to be upkept 
+- Reoccurring auto tasks such as mow the lawn or take out the trash that need to be upkept 
 #explain in a sentence or 2
 
 3rd Person 
 Demonstration of the demo and explain what is happening 
 
-#voice over if facecam is akward and distracting from the demo 
+#voice over if facecam is awkward and distracting from the demo 
 
 4th person 
 Highlights and talks about the most unique and proud feature of the team 
 
-5th person 
-Says their thanks to the sponsors, judges and for the oppurtunity for everyone in the team to enter their first
+5th person - Morgan
+Says their thanks to the sponsors, judges and for the opportunity for everyone in the team to enter their first
 hackathon 
-Shout out to Bruce and Mike for being awesome teachers 
+Shout out to Bruce and Mike for being awesome teachers.
