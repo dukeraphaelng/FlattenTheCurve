@@ -84,7 +84,7 @@ input {
 border-radius:2px;
 }
 
-/* NEW TASK FORM -------------------------------- */
+/* FORM ----------------------------------------- */
 
 .form-heading {
   text-align: center;
@@ -99,6 +99,12 @@ border-radius:2px;
   height: 100px;
   width: 100%;
   resize: none;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 form {
@@ -111,7 +117,7 @@ form {
 
 input[type="text"] {
   width: 100%;
-  // padding: 12px 20px;
+  padding: 8px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -132,6 +138,13 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.cancel {
+  background-color: red;
+  text-align: center;
+  border-radius: 4px;
+  padding: 14px 20px;
 }
 
 .form-container label {
