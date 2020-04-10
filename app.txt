@@ -8,10 +8,10 @@ View character progress
 
 Task:
 - Title:string
-- Start Time: Datetime
+- Start Time: Datetime (Time.now)
 - End Time: Datetime
 - Description:string
-- Priority:integer (1 - 3) 1 is high, 3 is low
+- Priority:integer (1 - 3) 3 is high, 1 is low
 - Donation if failed: Boolean
 
 
