@@ -138,3 +138,21 @@ input[type=submit]:hover {
   font-size: 1rem;
 }
 
+
+
+/* TASKS SHOW - WHAT"S SHOWN AFTER CREATION************************ */
+
+.taskshow {
+  display:flex;
+  flex-flow:column;
+  max-width:50%;
+  border:1px solid white;
+  border-style:dashed;
+
+}
+
+.taskshow p, .taskshow a{
+padding-left:20px;
+// display:flex;
+
+}
