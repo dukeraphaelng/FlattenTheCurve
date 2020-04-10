@@ -155,17 +155,44 @@ input[type=submit]:hover {
 
 /* TASKS SHOW - WHAT"S SHOWN AFTER CREATION************************ */
 
+.taskshowcontainer{
+  display:flex;
+  justify-content: center;
+  // height:100%;
+}
+
 .taskshow {
   display:flex;
   flex-flow:column;
-  max-width:50%;
+  min-width:35%;
   border:1px solid white;
-  border-style:dashed;
+  border-style:solid;
 
 }
 
 .taskshow p, .taskshow a{
 padding-left:20px;
-// display:flex;
 
+}
+
+
+/* Edit button after creation */
+.edit{
+  background-color: yellow;
+  text-align: center;
+  border-radius: 4px;
+  padding: 14px 20px;
+  color:black;
+}
+
+.edit a, .back a{
+  color:black;
+}
+
+/* Back button after creation*/
+.back{
+  background-color: red;
+  text-align: center;
+  border-radius: 4px;
+  padding: 14px 20px;
 }

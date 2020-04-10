@@ -1,41 +1,50 @@
-<div class="taskshow">
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @task.title %>
-</p>
+<div class="taskshowcontainer">
 
-<p>
-  <strong>Start time:</strong>
-  <%= @task.start_time %>
-</p>
+  <div class="taskshow">
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>End time:</strong>
-  <%= @task.end_time %>
-</p>
+  <p>
+    <strong>Title:</strong>
+    <%= @task.title %>
+  </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @task.description %>
-</p>
+  <p>
+    <strong>Start time:</strong>
+    <%= @task.start_time %>
+  </p>
 
-<p>
-  <strong>Priority:</strong>
-  <%= @task.priority %>
-</p>
+  <p>
+    <strong>End time:</strong>
+    <%= @task.end_time %>
+  </p>
 
-<p>
-  <strong>Completed:</strong>
-  <%= @task.completed %>
-</p>
+  <p>
+    <strong>Description:</strong>
+    <%= @task.description %>
+  </p>
 
-<p>
-  <strong>User:</strong>
-  <%= @task.user_id %>
-</p>
+  <p>
+    <strong>Priority:</strong>
+    <%= @task.priority %>
+  </p>
 
-<%= link_to 'Edit', edit_task_path(@task) %> |
-<%= link_to 'Back', tasks_path %>
+  <p>
+    <strong>Completed:</strong>
+    <%= @task.completed %>
+  </p>
+
+  <p>
+    <strong>User:</strong>
+    <%= @task.user_id %>
+  </p>
+
+  <div class="edit">
+  <%= link_to 'Edit', edit_task_path(@task) %> 
+  </div>
+
+  <div class="back">
+  <%= link_to 'Back', tasks_path %>
+  </div>
+
 </div>
