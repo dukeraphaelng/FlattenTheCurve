@@ -2,10 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
+/*apply font and white color to all */
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+}
+
 body {
     background-color: #262439;
     // color: darkslategray;
     color: white;
+    
 }
 
 h1 {
@@ -27,7 +36,27 @@ input {
 }
 
 
+/* LINKS ---------------------------------------*/
+
+a[href="/tasks/new"] {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 3px 5px 3px 5px;
+    text-decoration: none;
+}
+
+
+
+a[href="/tasks/new"]:hover {
+    text-decoration: none;
+}
+
+
+/* input
+
 /*apply styling to "Create Task" submit button*/
 input[type="submit"]{
-    color:F49E4B;
+    color:#F49E4B;
 }
+
