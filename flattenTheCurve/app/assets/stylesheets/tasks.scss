@@ -28,11 +28,11 @@ input[type="submit"] {
     color:black;
 }
 
-.alert {
-    padding: 20px;
-    background-color: #f44336;
-    color: white;
-  }
+// .alert {
+//     padding: 20px;
+//     background-color: #f44336;
+//     color: white;
+//   }
   
   .closebtn {
     margin-left: 15px;
@@ -64,9 +64,17 @@ border-bottom: 2px solid #FFFFFF;
 table, th, td{
     border:1px solid white;
     border-collapse: collapse;
-
 }
 
+/*alternating colours for table rows*/
+tr:nth-child(odd){
+  background-color:#536470;
+}
+
+/*change colour of table header to original purple*/
+thead tr th{
+  background-color:#262439;
+}
 
 
 /* INPUT FIELDS  -------------------------------- */
@@ -78,6 +86,10 @@ border-radius:2px;
 
 /* NEW TASK FORM -------------------------------- */
 
+.form-heading {
+  text-align: center;
+}
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -87,18 +99,13 @@ form {
   border-radius: 5px;
   background-color: #151324;
   padding: 20px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.form-container .field {
-  width: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 input[type="text"] {
   width: 100%;
-  padding: 12px 20px;
+  // padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -121,7 +128,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
 .form-container label {
   font-size: 1rem;
 }
+
