@@ -12,6 +12,7 @@
     <h3>Welcome to our app</h3>
     <br />
     <% if current_account %>
+      <%= link_to  "View your account", @task %>
       <%= link_to  "Sign out", destroy_account_session_path, method: :delete %>
     <% else %>
     <span id = "login_or_register">
@@ -28,5 +29,5 @@
     Built by <a href = "https://github.com/MorganBat" target = "_blank">Morgan</a>, <a href = "https://github.com/r0ss26" target = "_blank">Ross</a>, <a href = "https://github.com/MartinVald2170" target = "_blank">Martin</a>, <a href = "https://github.com/andrewtrandev" target = "_blank">Andrew</a>, <a href = "https://github.com/vincentlieu" target = "_blank">Vincent</a>, and <a href = "https://github.com/dukeraphaelng" target = "_blank">Duke</a>
     </footer>
   </body>
-
+  <% yield %>
 </html>
