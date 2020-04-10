@@ -6,6 +6,14 @@ update a task
 View character progress
 
 
+Task:
+- Title:string
+- Start Time: Datetime
+- End Time: Datetime
+- Description:string
+- Priority:integer (1 - 3) 1 is high, 3 is low
+- Donation if failed: Boolean
+
 
 Add task screen:
 
@@ -15,11 +23,9 @@ Set time frame
 Ask for reminder interval (or set fixed?)
 Optional: Elect for charity donation
 
-
 View Tasks:
 See all tasks in a Table view
 Allow for sorting by time left, priority, order added or "importance" - importance is a mix of time left and priority
-
 
 Update Task: 
 List tasks
