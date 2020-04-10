@@ -5,7 +5,7 @@ class TasksController < ApplicationController
   # GET /tasks.json
   def index
     @tasks = Task.all
-  end
+  end 
 
   # GET /tasks/1
   # GET /tasks/1.json
