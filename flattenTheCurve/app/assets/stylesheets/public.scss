@@ -7,23 +7,50 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  h3 {
-    font-size: 20px;
-  }
-  
-  #login_or_register {
-    display: grid;
-    
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
+    height: 95%;
     width: 100%;
-  }
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#login_or_register {
+  display: grid;
+  
+}
+
+#login_or_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#login {
+  padding: 20px;
+}
+
+#register {
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  text-align: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
