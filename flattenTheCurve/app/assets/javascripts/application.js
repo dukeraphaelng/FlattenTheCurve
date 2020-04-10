@@ -14,6 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require alert
 
-require("alert.js")
+// require("alert.js")
 
