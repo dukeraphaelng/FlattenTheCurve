@@ -2,56 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
-/*apply font and white color to all */
-*{
-    font-family: 'Roboto', sans-serif;
-    font-weight:500;
-}
-
-body {
-    background-color: #262439;
-    // color: darkslategray;
-    color: white;
-    
-}
-
-h1 {
-    font-family: "Lucida Console", Monaco, monospace;
-    text-transform: uppercase;
-}
-
-table {
-    border: 1px solid #FFFFFF;
-}
-
-th {
-    border-bottom: 2px solid #FFFFFF;
-}
-
-/* apply border radius to input fields */
-input {
-    border-radius:2px;
-}
-
-
 /* LINKS ---------------------------------------*/
 
 a[href="/tasks/new"] {
-    background-color: white;
-    border: 1px solid white;
+    background-color: #FBFFFE;
+    border: 1px solid #FBFFFE;
     border-radius: 100px;
-    padding: 3px 5px 3px 5px;
+    padding: 5px 10px 5px 10px;
     text-decoration: none;
+    color: #333333;
 }
-
-
 
 a[href="/tasks/new"]:hover {
+    background-color: black;
+    border: 1px solid black;
     text-decoration: none;
+    color: #FBFFFE;
 }
-
 
 /* BUTTONS ------------------------------------*/
 
@@ -60,3 +27,23 @@ input[type="submit"]{
     color:black;
 }
 
+
+
+/* TABLES  --------------------------------*/
+
+table {
+    border: 1px solid #FFFFFF;
+  }
+  
+th {
+border-bottom: 2px solid #FFFFFF;
+}
+
+  
+
+/* INPUT FIELDS  -------------------------------- */
+
+/* apply border radius to input fields */
+input {
+border-radius:2px;
+}
