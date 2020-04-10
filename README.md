@@ -6,6 +6,7 @@
 - Andrew Tran
 - Vincent Lieu
 - Morgan Batterham
+- Duke Nguyen
 
 ### Mentors
 - Annabel Liu
