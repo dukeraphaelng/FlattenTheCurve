@@ -62,7 +62,7 @@ border-bottom: 2px solid #FFFFFF;
 
 /* add lines to table */
 table, th, td{
-    border:1px solid white;
+    border:1px solid #FFFFFF;
     border-collapse: collapse;
 }
 
@@ -141,10 +141,22 @@ input[type=submit]:hover {
 }
 
 .cancel {
-  background-color: red;
+display: flex;
+justify-content: center;
+}
+
+.cancel a {
+  text-decoration: none;
+  background-color: #ff0000;
   text-align: center;
   border-radius: 4px;
-  padding: 14px 20px;
+  padding: 11.5px 20px;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.cancel a:hover {
+  background-color: #c90000;
 }
 
 .form-container label {
