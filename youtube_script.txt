@@ -54,6 +54,8 @@ Demonstration of the demo and explain what is happening
 Highlights and talks about the most unique and proud feature of the team 
 
 5th person - Morgan
-Says their thanks to the sponsors, judges and for the opportunity for everyone in the team to enter their first
-hackathon 
-Shout out to Bruce and Mike for being awesome teachers.
+On behalf of the Backrow group I’d like to thank the ACS for organising this hackathon, 
+all the sponsors and judges for making this possible. 
+This is our first hackathon but certainly won’t be our last! 
+
+And a massive shout out to our instructors, Bruce McLure and Mike Dane for teaching us these skills
