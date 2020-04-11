@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 2020_04_11_025354) do
     t.datetime "updated_at", null: false
     t.bigint "accounts_id"
     t.index ["accounts_id"], name: "index_tasks_on_accounts_id"
+
   end
 
 end
