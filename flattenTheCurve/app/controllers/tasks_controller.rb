@@ -5,7 +5,7 @@ class TasksController < ApplicationController
   # GET /tasks
   # GET /tasks.json
   def index
-    @tasks = Task.where(user_id: current_account)
+    @tasks = Task.where(account_id: current_account)
   end 
 
   # GET /tasks/1
@@ -26,6 +26,7 @@ class TasksController < ApplicationController
   # POST /tasks.json
   def create
     @task = Task.new(task_params)
+    @task.account_id = current_account.id if account_signed_in?
 
     respond_to do |format|
       if @task.save
@@ -70,6 +71,6 @@ class TasksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def task_params
-      params.require(:task).permit(:title, :start_time, :end_time, :description, :priority, :completed, :user_id)
+      params.require(:task).permit(:title, :start_time, :end_time, :description, :priority, :completed, :account_id)
     end
 end
