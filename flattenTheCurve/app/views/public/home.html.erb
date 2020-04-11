@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class = "container">
-    <h1>Exercise Motivator</h1>
+    <h1>Motivator App</h1>
     <br />
     <div>
       <% if current_account %>
@@ -16,12 +16,8 @@
         <button><%= link_to  "Sign out", destroy_account_session_path, method: :delete %></button>
       <% else %>
       <span id = "login_or_register">
-          <div id = "register">
         <button><%= link_to  "Sign up", new_account_registration_path %></button>
-          </div>
-          <div id = "login">
         <button><%= link_to  "Sign in", new_account_session_path %></button>
-          </div>
       </span>
     </div>
     <% end %>
