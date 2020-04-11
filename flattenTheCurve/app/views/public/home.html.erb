@@ -8,23 +8,24 @@
 </head>
 <body>
 <div class = "container">
-    <h2>This is the landing page</h2>
-    <h3>Welcome to our app</h3>
+    <h1>Exercise Motivator</h1>
     <br />
-    <% if current_account %>
-      <%= link_to  "View your account", tasks_path %>
-      <%= link_to  "Sign out", destroy_account_session_path, method: :delete %>
-    <% else %>
-    <span id = "login_or_register">
-        <div id = "register">
-      <%= link_to  "Sign up", new_account_registration_path %>
-        </div>
-        <div id = "login">
-      <%= link_to  "Sign in", new_account_session_path %>
-        </div>
-    </span>
+    <div>
+      <% if current_account %>
+        <%= link_to  "View your account", tasks_path %>
+        <button><%= link_to  "Sign out", destroy_account_session_path, method: :delete %></button>
+      <% else %>
+      <span id = "login_or_register">
+          <div id = "register">
+        <button><%= link_to  "Sign up", new_account_registration_path %></button>
+          </div>
+          <div id = "login">
+        <button><%= link_to  "Sign in", new_account_session_path %></button>
+          </div>
+      </span>
+    </div>
     <% end %>
-</div>
+</div class="main">
     <footer>
     Built by <a href = "https://github.com/MorganBat" target = "_blank">Morgan</a>, <a href = "https://github.com/r0ss26" target = "_blank">Ross</a>, <a href = "https://github.com/MartinVald2170" target = "_blank">Martin</a>, <a href = "https://github.com/andrewtrandev" target = "_blank">Andrew</a>, <a href = "https://github.com/vincentlieu" target = "_blank">Vincent</a>, and <a href = "https://github.com/dukeraphaelng" target = "_blank">Duke</a>
     </footer>

@@ -34,18 +34,11 @@ ActiveRecord::Schema.define(version: 2020_04_11_025354) do
     t.string "description"
     t.integer "priority"
     t.boolean "completed"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "account_id"
-    t.index ["account_id"], name: "index_tasks_on_account_id"
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "email"
-    t.string "password_digest"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["email"], name: "index_users_on_email", unique: true
+    t.bigint "accounts_id"
+    t.index ["accounts_id"], name: "index_tasks_on_accounts_id"
   end
 
 end
