@@ -1,0 +1,80 @@
+Title: Task management appDescription: The high-level overview/statement of your idea
+
+Details: Incentivised Task management app
+
+
+Description of background and problem that your idea is going to
+solve.
+With the the advent of covid-19, masses of people are required to be self-quarantined and many industries have been severely impacted causing loss of jobs and businesses. We're aiming to target these particularly vulnerable people who 
+may now have large amounts of unstructured free time and find it difficult to get the motivation to complete tasks.
+
+
+Description of how your idea works to solve this problem.
+Our app will help users by rewarding them for consistent task completion. This is done through consistent reminders and tracking of progress. Our app will have gamification aspects such as streaks, experience points, rewards to help users to stick to good habits.  In the future we aim to partner up with local companies and business to supply discounts and vouchers as rewards, this could be a way to encourage support for local businesses and also help generate revenue.
+
+
+
+UI Design of your idea (i.e. paper prototypes (rough drawings of an
+interface), screen design)
+
+Insert Wireframes
+
+
+
+Advantages of your idea.
+Priority levels - allow users to be able to easily distinguish which tasks are most important
+
+Regular reminders - help users stay on track and remind them of their most important tasks
+
+Reoccurring Tasks - 
+
+Social Media encouragement - 
+
+Gamification - streaks, rewards, experience points - helps users stick to using the app 
+
+Web app and mobile app
+
+Donation to charity
+
+
+Key scenarios:
+In which scenarios will it help people?
+Unmotivated workers laid off recently from covid 
+
+Students - looking for a task management app
+
+
+
+
+Potential difficulties:
+What are the potential difficulties? Like how to get enough data?
+
+How to get enough users etc?
+Issues could be consistent usage of the app - may be difficult to encourage users to continue using app to be productive
+
+Based on honesty - since users are making their own tasks and ticking them off for completion, it's completely up to them whether they're honest..
+
+Competition such as Habitica and Google tasks - other task management apps such as Habitica also have gamification aspects and are well fleshed out. 
+
+
+
+
+Solution Upload
+
+Document
+
+The document should be up to 8 pages in Microsoft Word, public
+link to Google docs, or PDF to describe your ideas
+Able to use charts, diagrams and tables to explain your ideas with
+any appendix attached.
+
+Video
+○ Upload a video solution to Youtube
+○ Videos must be made public or through a private link for judges
+to assess and ACS to own license for potential distribution.
+
+
+ GitHub or other code repo link
+
+https://github.com/MorganBat/FlattenTheCurve
+○Provide a publically available
