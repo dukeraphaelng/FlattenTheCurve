@@ -2,16 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 95%;
-    width: 100%;
-    position: fixed;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 95%;
+  width: 100%;
+  position: fixed;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -53,4 +58,18 @@ footer {
   a {
     padding-left: 3px;
   }
+}
+
+button {
+  font-size: 20px;
+  font-weight: 700px;
+  padding: 10%;
+  width: 150%;
+  height: 30%;
+}
+
+div.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
