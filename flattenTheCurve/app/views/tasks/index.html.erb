@@ -18,18 +18,20 @@
 
   <tbody>
     <% @tasks.each do |task| %>
-      <tr>
-        <td class="title"><%= task.title %></td>
-        <td><%= task.start_time %></td>
-        <td class="end-time" data-complete="no" data-title=<%= task.title %>><%= task.end_time %></td>
-        <td><%= task.description %></td>
-        <td><%= task.priority %></td>
-        <td><%= task.completed %></td>
-        <td><%= task.user_id %></td>
-        <td><%= link_to 'Show', task %></td>
-        <td><%= link_to 'Edit', edit_task_path(task) %></td>
-        <td><%= link_to 'Delete', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <%# <% if (task.user_id == current_user.id) %>
+        <tr>
+          <td class="title"><%= task.title %></td>
+          <td><%= task.start_time %></td>
+          <td class="end-time" data-complete="no" data-title=<%= task.title %>><%= task.end_time %></td>
+          <td><%= task.description %></td>
+          <td><%= task.priority %></td>
+          <td><%= task.completed %></td>
+          <td><%= task.user_id %></td>
+          <td><%= link_to 'Show', task %></td>
+          <td><%= link_to 'Edit', edit_task_path(task) %></td>
+          <td><%= link_to 'Delete', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <%# <% end %>
     <% end %>
   </tbody>
 </table>

@@ -5,7 +5,7 @@ class TasksController < ApplicationController
   # GET /tasks
   # GET /tasks.json
   def index
-    @tasks = Task.all
+    @tasks = Task.where(user_id: current_account)
   end 
 
   # GET /tasks/1
