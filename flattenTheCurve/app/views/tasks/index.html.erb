@@ -2,8 +2,8 @@
 
 <h1>Welcome, user: <%= current_account.email %></h1> 
 
-<%= link_to  "Sign out", destroy_account_session_path, method: :delete %>
-
+<%= link_to  "My Account", edit_account_registration_path %>
+<%= link_to  "Sign out", edit_account_registration_path, method: :delete %>
 
 <h1>Tasks</h1>
 
