@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<h1>Welcome, user: <%= current_account.email %></h1> 
+
+<%= link_to  "Sign out", destroy_account_session_path, method: :delete %>
+
+
 <h1>Tasks</h1>
 
 <table>
