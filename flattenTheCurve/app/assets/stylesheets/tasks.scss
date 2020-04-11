@@ -156,27 +156,21 @@ justify-content: center;
   font-size: 1rem;
 }
 
-
-
 /* TASKS SHOW - WHAT"S SHOWN AFTER CREATION************************ */
 
 .taskshowcontainer{
   display:flex;
   flex-flow:column;
   align-items:center;
-  // justify-content: center;
-  // align-content: center;
-  // height:100%;
 }
 
 .taskshow {
   display:flex;
   flex-flow:column;
-  width:45%;
-  border:1px solid white;
-  border-style:solid;
+  width: 40%;
   background-color: #151324;
-  border-radius:5px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .taskshow p, .taskshow a{
@@ -186,23 +180,40 @@ padding-left:20px;
 
 
 /* Edit button after creation */
-.edit, .back{
-  background-color: yellow;
-  text-align: center;
-  border-radius: 4px;
-  padding:8px;
-  color:black;
-  margin-bottom:10px;
-  width:80%;
-}
-
 
 /* Back button after creation*/
-.back{
-  background-color: red;
- 
+
+.edit, .back {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.edit a, .back a{
-  color:black;
+.edit a {
+  background-color: #4CAF50;
+  text-align: center;
+  border-radius: 4px;
+  padding: 11.5px 20px;
+  width: 100%;
+  color: #FFFFFF;
+  text-decoration: none;
 }
+
+.edit a:hover {
+  background-color: #45aA49;
+}
+
+.back a {
+  text-decoration: none;
+  background-color: #ff0000;
+  text-align: center;
+  border-radius: 4px;
+  padding: 11.5px 20px;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.back a:hover {
+  background-color: #c90000;
+}
+
