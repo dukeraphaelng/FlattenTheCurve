@@ -7,7 +7,7 @@ class CreateTasks < ActiveRecord::Migration[5.2]
       t.string :description
       t.integer :priority
       t.boolean :completed
-      t.integer :user_id
+      t.integer :account_id
 
       t.timestamps
     end
