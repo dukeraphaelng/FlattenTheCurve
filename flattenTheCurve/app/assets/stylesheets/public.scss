@@ -73,3 +73,12 @@ div.main {
   justify-content: center;
   align-items: center;
 }
+
+.forgot-password-nav {
+  display: flex;
+  justify-content: center;
+
+  a {
+    margin: 10px 50px;
+  }
+}
