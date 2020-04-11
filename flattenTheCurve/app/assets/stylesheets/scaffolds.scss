@@ -91,33 +91,35 @@ h2 {
   color: green;
 }
 
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
-
 #error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px 7px 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px;
   margin-bottom: 20px;
-  background-color: #f0f0f0;
+  background-color: #cc0000;
 
   h2 {
     text-align: left;
     font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px -7px 0;
+    font-size: 1em;
+    border-radius: 5px;
     background-color: #c00;
     color: #fff;
   }
 
+  ul {
+    padding-left: 20px;
+  }
+
   ul li {
-    font-size: 12px;
+    font-size: 1em;
     list-style: square;
   }
+}
+
+.field_with_errors input {
+  border: 2px solid #ff2d2d;
+  background-color: #ffb4b4;
 }
 
 label {
