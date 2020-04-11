@@ -32,17 +32,8 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#login {
-  padding-left: 25px;
-  color: grey;
-}
-
-#register {
-  padding-right: 25px;
-  color: grey;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
 }
 
 footer {
@@ -62,10 +53,11 @@ footer {
 
 button {
   font-size: 20px;
-  font-weight: 700px;
-  padding: 10%;
-  width: 150%;
-  height: 30%;
+  margin: 25px;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 div.main {
